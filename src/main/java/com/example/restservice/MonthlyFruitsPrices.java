@@ -11,16 +11,16 @@ import lombok.Setter;
 @NoArgsConstructor
 public class MonthlyFruitsPrices implements Serializable {
     private String fruit;
-    private float jan;
-    private float feb;
-    private float mar;
-    private float apr;
-    private float may;
-    private float jun;
-    private float jul;
-    private float aug;
-    private float sep;
-    private float oct;
-    private float nov;
-    private float dec;
+    private double jan;
+    private double feb;
+    private double mar;
+    private double apr;
+    private double may;
+    private double jun;
+    private double jul;
+    private double aug;
+    private double sep;
+    private double oct;
+    private double nov;
+    private double dec;
 }

@@ -16,7 +16,7 @@ public class FruitTotalPriceResponse implements Serializable {
 	private long id;
 	private String fruit;
 	private String month;
-	private float fmp;
+	private String fmp;
 	private int quantity;
 	private double totalPrice;
 	private String environment;
